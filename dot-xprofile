@@ -1,0 +1,29 @@
+#!/bin/sh
+
+dwmblocks &
+
+# Change the wallpaper and generate new color scheme using Pywal
+wal -i /home/krishna/Downloads/macl.jpg &
+
+# Apply the wallpaper using xwallpaper
+xwallpaper --zoom /home/krishna/Downloads/macl.jpg &
+
+
+
+# Run make clean install for dwm, dmenu, and st to apply the new colors
+(
+    cd /home/krishna/suckless/dwm && sudo make clean install
+    cd /home/krishna/suckless/dmenu && sudo make clean install
+    cd /home/krishna/suckless/st && sudo make clean install
+) &
+
+# Start the compositor (if needed)
+xcompmgr &
+
+///////////////////////////////////////////////////////
+
+# Enable dark theme for GTK applications
+export GTK_THEME=Adwaita-dark
+
+# Enable dark theme for QT applications
+export QT_QPA_PLATFORMTHEME=qt5ct
