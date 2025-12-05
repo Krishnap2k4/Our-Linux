@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="firefox.desktop" score="38347756.6875" last-seen="1764957214"/>
+    <application id="org.gnome.Console.desktop" score="8.875" last-seen="1764957115"/>
+    <application id="google-chrome.desktop" score="1205.239458125616" last-seen="1764976441"/>
+    <application id="libreoffice-writer.desktop" score="1" last-seen="1764957225"/>
+    <application id="org.gnome.Nautilus.desktop" score="4" last-seen="1764957217"/>
+    <application id="libreoffice-startcenter.desktop" score="0" last-seen="1764957217"/>
+  </context>
+</application-state>

@@ -1,0 +1,24 @@
+station wlan0 get-networks
+station wlan0 connect TULSI
+station wlan0 get-networks
+station wlan0 connect TULSI
+station wlan0 get-networks
+station wlan0 connect 
+clea
+exit
+station wlan0 get-networks
+station wlan0 connect moto 5G
+station wlan0 connect "moto 5G"
+exit
+station wlan0 get-networks
+exit
+station wlan0 get-networks
+exit
+station wlan0 get-networks
+station wlan0 connect "moto 5G"
+station wlan0 get-networks
+station wlan0 scan
+nmcli device wifi list
+station wlan0 get-networks
+station wlan0 connect "moto 5G"
+exit
